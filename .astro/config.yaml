@@ -1,0 +1,5 @@
+project:
+  name: astro-test
+
+postgres:
+  port: 5438

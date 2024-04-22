@@ -1,0 +1,8 @@
+version: 2
+
+sources:
+  - name: netflixPg
+    database: netflix
+    schema: public
+    tables:
+      - name: netflix_shows

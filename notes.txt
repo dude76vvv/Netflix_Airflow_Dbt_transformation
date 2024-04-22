@@ -1,0 +1,26 @@
+//pg example
+
+https://docs.astronomer.io/learn/airflow-dbt
+
+===========
+//find and kill process based on port#
+
+netstat -ano | findstr :<PORT>
+
+taskkill /PID <PID> /F
+
+===========
+airflow login
+
+user : admin
+password: admin
+=========
+
+astr dev bash
+
+astro dev restart
+
+astro dev run connections test <conn_id>.
+
+
+
